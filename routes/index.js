@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: '운영팀 웹 어드민 시스템' });
+  res.render('index', { title: '운영팀 웹 어드민 시스템 v1' });
 });
 
 module.exports = router;
